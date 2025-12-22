@@ -1,3 +1,4 @@
+import logging
 import time
 import traceback
 from behave import given,when,then
@@ -6,6 +7,8 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from features.pageobjects.ProductPage import ProductPage
 from features.utilities import configReader
+from features.utilities.logUtil import Logger
+log=Logger(__name__,file_level=logging.INFO)
 
 @given(u'Navigate to the url Login to website')
 def step_impl(context):
@@ -42,6 +45,7 @@ def step_impl(context):
     except Exception as e:
         print(e)
         print(traceback.format_exc())
+        log.logger.exception(f"Exception occurred: {e}, traceback: {traceback.format_exc()}")
     else:
         print(product_data)
         context.min_price_max_rating = min(
@@ -65,6 +69,7 @@ def step_impl(context):
     except Exception as e:
         print(e)
         print(traceback.format_exc())
+
 
 @then(u'verify the item is added to the cart')
 def step_impl(context):
