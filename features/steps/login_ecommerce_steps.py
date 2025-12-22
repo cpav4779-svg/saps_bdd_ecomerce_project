@@ -81,7 +81,7 @@ def step_impl(context):
         WebDriverWait(context.driver,10).until(EC.visibility_of_element_located((
             By.XPATH,configReader.readConfig("locators", "cart_xpath"))))
         count = context.prodpage.find_cart_count("cart_xpath")
-        log.logger.info("printing no. of product added to cart",count.text)
+        log.logger.info(f"printing no. of product added to cart {count.text}")
         print("printing no. of product added to cart",count.text)
         assert count.text == "1"
     except Exception as e:
