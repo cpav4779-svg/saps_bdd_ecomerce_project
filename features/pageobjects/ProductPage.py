@@ -9,7 +9,7 @@ class ProductPage(BasePage):
         self.openUrl(url)
 
     def clickOnContinueShoppingLink(self,locator):
-        self.clickElement(locator)
+        self.clickElement(locator,"Linkavailabl")
 
     def clickOnSearchBox(self,locator):
         self.clickElement(locator)

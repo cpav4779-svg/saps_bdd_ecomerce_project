@@ -1,5 +1,6 @@
 import logging
 
+from selenium.common import TimeoutException
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
@@ -16,8 +17,17 @@ class BasePage:
     def openUrl(self,url):
         self.driver.get(configReader.readConfig("basic info",url))
 
-    def clickElement(self,locator):
-        if str(locator).lower().endswith("_xpath"):
+    def clickElement(self,locator,exist=None):
+        if str(locator).lower().endswith("_xpath") and exist:
+            try:
+                element=configReader.readConfig("locators", locator)
+                elem = WebDriverWait(self.driver, 10).until(
+                    EC.visibility_of_element_located((By.XPATH,element)))
+                elem.click()
+                return True  # clicked
+            except TimeoutException:
+                pass
+        elif str(locator).lower().endswith("_xpath"):
             self.driver.find_element(By.XPATH,configReader.readConfig("locators",locator)).click()
         elif str(locator).lower().endswith("_css"):
             self.driver.find_element(By.CSS_SELECTOR,configReader.readConfig("locators",locator)).click()

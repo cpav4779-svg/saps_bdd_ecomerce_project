@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite time="60.367995738983154" tests='2' skipped='0'
-name="Login_Ecommerce" failures='0' errors='0'><testcase time="28.974809169769287" name="Navigate_To_Website_And_Add_Fridge_Products_To_Cart" status="passed"
+<testsuite time="115.34599018096924" tests='2' skipped='0'
+name="Login_Ecommerce" failures='0' errors='0'><testcase time="44.641438722610474" name="Navigate_To_Website_And_Add_Fridge_Products_To_Cart" status="passed"
          classname="Ecomerce_Web_Application_Test" >
             <system-out>
             <![CDATA[
             @scenario.begin
                 @run
                 scenario: Navigate to website and add fridge products to cart
-e                given Navigate to the url Login to website ... passed in 5.242s 
-                when Enter "fridge samsung" in the search box and click on enter ... passed in 4.362s 
-                when Fetch all the options and get whose price is less and ratings are high ... passed in 6.179s 
-                when Fetch less cost machine and add it to cart ... passed in 0.001216s 
-                when Click on cart button ... passed in 0.6s 
-                then verify the item is added to the cart ... passed in 12.59s 
+e                given Navigate to the url Login to website ... passed in 12.19s 
+                when Enter "fridge samsung" in the search box and click on enter ... passed in 5.635s 
+                when Fetch all the options and get whose price is less and ratings are high ... passed in 9.613s 
+                when Fetch less cost machine and add it to cart ... passed in 0.003466s 
+                when Click on cart button ... passed in 0.931s 
+                then verify the item is added to the cart ... passed in 16.27s 
 @scenario.end
             ----------------------------------------------------------------------------------------------------
             ]]>
             </system-out>
-        </testcase><testcase time="31.393186569213867" name="Navigate_To_Website_And_Add_Washing_Products_To_Cart" status="passed"
+        </testcase><testcase time="70.70455145835876" name="Navigate_To_Website_And_Add_Washing_Products_To_Cart" status="passed"
          classname="Ecomerce_Web_Application_Test" >
             <system-out>
             <![CDATA[
             @scenario.begin
                 @run
                 scenario: Navigate to website and add washing products to cart
-e                given Navigate to the url Login to website ... passed in 2.829s 
-                when Enter "washing machine LG" in the search box and click on enter ... passed in 8.67s 
-                when Fetch all the options and get whose price is less and ratings are high ... passed in 6.25s 
-                when Fetch less cost machine and add it to cart ... passed in 0.0008209s 
-                when Click on cart button ... passed in 0.5584s 
-                then verify the item is added to the cart ... passed in 13.09s 
+e                given Navigate to the url Login to website ... passed in 30.75s 
+                when Enter "washing machine LG" in the search box and click on enter ... passed in 9.439s 
+                when Fetch all the options and get whose price is less and ratings are high ... passed in 14.63s 
+                when Fetch less cost machine and add it to cart ... passed in 0.0009384s 
+                when Click on cart button ... passed in 0.8427s 
+                then verify the item is added to the cart ... passed in 15.04s 
 @scenario.end
             ----------------------------------------------------------------------------------------------------
             ]]>

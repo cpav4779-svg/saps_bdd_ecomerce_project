@@ -6,5 +6,6 @@
     </content>
     <orderEntry type="jdk" jdkName="Python 3.14 (saps_behave)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="sapspython" />
   </component>
 </module>

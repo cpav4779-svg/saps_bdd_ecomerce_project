@@ -1,0 +1,6 @@
+2025-12-23 13:56:23,909 - features.pageobjects.BasePage - INFO - Clicking on an element: continue_shopping_xpath
+2025-12-23 13:56:29,433 - features.pageobjects.BasePage - INFO - Clicking on an element: search_box_click_xpath
+2025-12-23 13:56:47,684 - builtins - INFO - printing no. of product added to cart 1
+2025-12-23 13:56:53,466 - features.pageobjects.BasePage - INFO - Clicking on an element: continue_shopping_xpath
+2025-12-23 13:57:00,729 - features.pageobjects.BasePage - INFO - Clicking on an element: search_box_click_xpath
+2025-12-23 13:57:23,977 - builtins - INFO - printing no. of product added to cart 1

@@ -1,0 +1,14 @@
+2025-12-30 12:01:28,922 - features.pageobjects.BasePage - INFO - Clicking on an element: continue_shopping_xpath
+2025-12-30 12:01:45,111 - features.pageobjects.BasePage - INFO - Clicking on an element: continue_shopping_xpath
+2025-12-30 12:05:51,246 - features.pageobjects.BasePage - INFO - Clicking on an element: continue_shopping_xpath
+2025-12-30 12:05:54,962 - features.pageobjects.BasePage - INFO - Clicking on an element: search_box_click_xpath
+2025-12-30 12:06:12,274 - builtins - INFO - printing no. of product added to cart 1
+2025-12-30 12:06:27,254 - features.pageobjects.BasePage - INFO - Clicking on an element: continue_shopping_xpath
+2025-12-30 12:06:30,846 - features.pageobjects.BasePage - INFO - Clicking on an element: search_box_click_xpath
+2025-12-30 12:06:51,454 - builtins - INFO - printing no. of product added to cart 1
+2025-12-30 12:29:06,125 - features.pageobjects.BasePage - INFO - Clicking on an element: continue_shopping_xpath
+2025-12-30 12:29:11,761 - features.pageobjects.BasePage - INFO - Clicking on an element: search_box_click_xpath
+2025-12-30 12:29:24,680 - features.pageobjects.BasePage - INFO - Clicking on an element: continue_shopping_xpath
+2025-12-30 12:29:34,076 - features.pageobjects.BasePage - INFO - Clicking on an element: search_box_click_xpath
+2025-12-30 12:29:38,192 - builtins - INFO - printing no. of product added to cart 1
+2025-12-30 12:30:04,598 - builtins - INFO - printing no. of product added to cart 1

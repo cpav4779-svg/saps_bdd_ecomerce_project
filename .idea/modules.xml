@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/saps_behave.iml" filepath="$PROJECT_DIR$/.idea/saps_behave.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sapspython/.idea/sapspython.iml" filepath="$PROJECT_DIR$/../sapspython/.idea/sapspython.iml" />
     </modules>
   </component>
 </project>
