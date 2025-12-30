@@ -2,7 +2,7 @@
 Feature: Ecomerce web application test
   # Enter feature description here
 
-  @run
+  @sanity
   Scenario: Navigate to website and add washing products to cart
     Given Navigate to the url Login to website
     When Enter "washing machine LG" in the search box and click on enter
@@ -11,7 +11,7 @@ Feature: Ecomerce web application test
     And Click on cart button
     Then verify the item is added to the cart
 
-  @run
+  @smoke
   Scenario: Navigate to website and add fridge products to cart
     Given Navigate to the url Login to website
     When Enter "fridge samsung" in the search box and click on enter

@@ -12,3 +12,43 @@
 2025-12-30 12:29:34,076 - features.pageobjects.BasePage - INFO - Clicking on an element: search_box_click_xpath
 2025-12-30 12:29:38,192 - builtins - INFO - printing no. of product added to cart 1
 2025-12-30 12:30:04,598 - builtins - INFO - printing no. of product added to cart 1
+2025-12-30 20:47:45,674 - features.pageobjects.BasePage - INFO - Clicking on an element: continue_shopping_xpath
+2025-12-30 20:47:49,571 - features.pageobjects.BasePage - INFO - Clicking on an element: search_box_click_xpath
+2025-12-30 20:48:08,294 - builtins - INFO - printing no. of product added to cart 2
+2025-12-30 20:48:27,808 - features.pageobjects.BasePage - INFO - Clicking on an element: continue_shopping_xpath
+2025-12-30 20:48:30,858 - features.pageobjects.BasePage - INFO - Clicking on an element: search_box_click_xpath
+2025-12-30 20:48:52,497 - builtins - INFO - printing no. of product added to cart 1
+2025-12-30 20:50:38,827 - features.pageobjects.BasePage - INFO - Clicking on an element: continue_shopping_xpath
+2025-12-30 20:50:47,590 - features.pageobjects.BasePage - INFO - Clicking on an element: search_box_click_xpath
+2025-12-30 20:51:02,491 - builtins - INFO - printing no. of product added to cart 2
+2025-12-30 20:55:21,513 - features.pageobjects.BasePage - INFO - Clicking on an element: continue_shopping_xpath
+2025-12-30 20:55:28,632 - features.pageobjects.BasePage - INFO - Clicking on an element: search_box_click_xpath
+2025-12-30 20:55:43,977 - builtins - INFO - printing no. of product added to cart 2
+2025-12-30 21:06:05,239 - features.pageobjects.BasePage - INFO - Clicking on an element: continue_shopping_xpath
+2025-12-30 21:06:09,638 - features.pageobjects.BasePage - INFO - Clicking on an element: search_box_click_xpath
+2025-12-30 21:06:33,251 - builtins - INFO - printing no. of product added to cart 1
+2025-12-30 21:06:49,443 - features.pageobjects.BasePage - INFO - Clicking on an element: continue_shopping_xpath
+2025-12-30 21:06:57,361 - features.pageobjects.BasePage - INFO - Clicking on an element: search_box_click_xpath
+2025-12-30 21:07:28,287 - builtins - INFO - printing no. of product added to cart 1
+2025-12-30 21:16:05,282 - features.pageobjects.BasePage - INFO - Clicking on an element: search_box_click_xpath
+2025-12-30 21:16:34,262 - builtins - INFO - printing no. of product added to cart 2
+2025-12-30 21:17:02,904 - features.pageobjects.BasePage - INFO - Clicking on an element: search_box_click_xpath
+2025-12-30 21:17:29,397 - builtins - INFO - printing no. of product added to cart 1
+2025-12-30 21:19:46,041 - features.pageobjects.BasePage - INFO - Clicking on an element: continue_shopping_xpath
+2025-12-30 21:19:54,578 - features.pageobjects.BasePage - INFO - Clicking on an element: search_box_click_xpath
+2025-12-30 21:20:12,372 - builtins - INFO - printing no. of product added to cart 1
+2025-12-30 21:20:27,620 - features.pageobjects.BasePage - INFO - Clicking on an element: continue_shopping_xpath
+2025-12-30 21:20:36,038 - features.pageobjects.BasePage - INFO - Clicking on an element: search_box_click_xpath
+2025-12-30 21:21:04,370 - builtins - INFO - printing no. of product added to cart 1
+2025-12-30 21:34:10,038 - features.pageobjects.BasePage - INFO - Clicking on an element: continue_shopping_xpath
+2025-12-30 21:34:12,971 - features.pageobjects.BasePage - INFO - Clicking on an element: search_box_click_xpath
+2025-12-30 21:34:27,729 - builtins - INFO - printing no. of product added to cart 2
+2025-12-30 21:34:44,526 - features.pageobjects.BasePage - INFO - Clicking on an element: continue_shopping_xpath
+2025-12-30 21:34:46,882 - features.pageobjects.BasePage - INFO - Clicking on an element: search_box_click_xpath
+2025-12-30 21:35:01,364 - builtins - INFO - printing no. of product added to cart 1
+2025-12-30 21:44:39,476 - features.pageobjects.BasePage - INFO - Clicking on an element: continue_shopping_xpath
+2025-12-30 21:44:49,355 - features.pageobjects.BasePage - INFO - Clicking on an element: search_box_click_xpath
+2025-12-30 21:45:07,828 - builtins - INFO - printing no. of product added to cart 1
+2025-12-30 21:45:23,541 - features.pageobjects.BasePage - INFO - Clicking on an element: continue_shopping_xpath
+2025-12-30 21:45:32,370 - features.pageobjects.BasePage - INFO - Clicking on an element: search_box_click_xpath
+2025-12-30 21:45:55,899 - builtins - INFO - printing no. of product added to cart 1

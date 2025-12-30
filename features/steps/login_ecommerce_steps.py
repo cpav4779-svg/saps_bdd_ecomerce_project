@@ -86,4 +86,5 @@ def step_impl(context):
         assert count.text == "1"
     except Exception as e:
         print(traceback.format_exc(), e)
+        raise AssertionError(f"Expected cart count '1', found '{count.text}'")
 
